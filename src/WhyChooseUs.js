@@ -3,8 +3,8 @@ import React from "react";
 export default function WhyChooseUs(){
     return(
         <div className="why-us">
-            <h1>Why choose Easybank?</h1>
-            <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
+            <h1 className="why-us-title">Why choose Easybank?</h1>
+            <p className="why-us-desc">We leverage Open Banking to turn your bank account into your financial hub. <br />Control 
             your finances like never before.</p>
 
             <div className="why-us-reasons">
