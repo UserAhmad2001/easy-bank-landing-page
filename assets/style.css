@@ -10,6 +10,7 @@
 
 body {
   background-color: #FAFAFA;
+  overflow-x: hidden;
 }
 
 header {
@@ -220,6 +221,63 @@ header button:hover {
   height: 12rem;
   object-fit: cover;
   margin-bottom: 1.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #2D314E;
+  padding: 4rem 10%;
+  color: white;
+  justify-content: space-between;
+}
+footer .logo-social {
+  display: flex;
+  flex-direction: column;
+}
+footer .logo-social .social {
+  margin-top: 3rem;
+}
+footer .logo-social .social img {
+  margin-inline: 0.5rem;
+  cursor: pointer;
+}
+footer .logo-social .social img:hover {
+  fill: #7FD4DF;
+  filter: hue-rotate(45);
+}
+footer .sections-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .sections-footer span {
+  width: 40%;
+  cursor: pointer;
+  font-weight: 300;
+}
+footer .sections-footer span:hover {
+  color: #7FD4DF;
+}
+footer .footer-btn-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer .footer-btn-copyright button {
+  background: linear-gradient(to right, hsl(136deg, 65%, 51%), #7FD4DF);
+  border-radius: 1.6rem;
+  padding: 0.7rem 2rem;
+  border: none;
+  color: white;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+footer .footer-btn-copyright button:hover {
+  filter: brightness(1.1);
+}
+footer .footer-btn-copyright p {
+  color: hsl(233deg, 8%, 62%);
 }
 
 /*# sourceMappingURL=style.css.map */

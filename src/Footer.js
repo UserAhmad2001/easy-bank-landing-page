@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <footer>
             <div className="logo-social">
-                <img src="..\assets\images\logo.svg" alt="footer logo" />
+                <img src="..\assets\images\logo-bg-dark.svg" alt="footer logo" />
                 <div className="social">
                     <img src="..\assets\images\icon-facebook.svg" alt="facebook logo" />
                     <img src="..\assets\images\icon-youtube.svg" alt="youtube logo" />

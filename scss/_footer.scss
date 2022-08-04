@@ -1,0 +1,74 @@
+@use './variables' as *;
+
+footer{
+display: flex;
+flex-direction: row;
+background-color: #2D314E;
+padding: 4rem 10%;
+color: white;
+justify-content: space-between;
+
+
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    
+
+    .social{
+    margin-top: 3rem;
+
+    img{
+        margin-inline: .5rem;
+        cursor: pointer;
+        &:hover{
+            fill: $bright-cyan;
+            filter: hue-rotate(45);
+        }
+    }
+    }
+}
+
+
+
+.sections-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    span{
+        width: 40%;
+        cursor: pointer;
+        font-weight: 300;
+        &:hover{
+            color: $bright-cyan ;
+        }
+    }
+}
+
+
+.footer-btn-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+button{
+    background: $green-blue-grad;
+    border-radius: 1.6rem;
+    padding: .7rem 2rem;
+    border: none;
+    color: white;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    &:hover{
+        filter: brightness(1.1);
+    }
+}
+
+p{
+    color: $grayish-blue;
+}
+}
+
+
+
+}
