@@ -1,0 +1,29 @@
+@media screen and (max-width:960px) {
+  .latest-articles {
+
+    h1 {
+      text-align: center;
+    }
+
+    .articles {
+      flex-direction: column;
+
+      .article {
+        width: 100%;
+        margin-bottom: 3rem;
+
+        .author {
+        }
+        p:nth-child(3) {
+        }
+        .summary {
+        }
+
+        img {
+          height: 20rem;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

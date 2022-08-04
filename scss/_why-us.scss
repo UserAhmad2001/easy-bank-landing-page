@@ -29,9 +29,9 @@
             align-items: flex-start;
             justify-content: space-between;
             flex-wrap: wrap;
-            &:not(:first-child){
-                margin-left: 3rem;
-            }
+            // &:not(:first-child){
+            //     margin-left: 3rem;
+            // }
 
             img{
                 margin-bottom: 1rem;

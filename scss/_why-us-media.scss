@@ -1,0 +1,62 @@
+@media screen and (max-width:1164px) {
+    .why-us{
+        transform: translateY(-10%);
+    }
+}
+
+
+
+
+@media screen and (max-width:941px) {
+    .why-us{
+        transform: translateY(0);
+
+        .why-us-title{
+            text-align: center;
+            margin-inline: auto;
+            font-size: 3rem !important;
+        }
+
+        .why-us-desc{
+            text-align: center;
+            margin-inline: auto;
+            .break{
+                display: none;
+            }
+        }
+
+
+
+        .why-us-reasons{
+            flex-direction: column;
+            align-items: center;
+
+            .reason{
+                margin: 0;
+                margin-bottom: 4rem;
+                align-items: center;
+                width: 100%;
+                &:first-child{
+                    margin-left: 0;
+                }
+
+                img{
+                    margin-inline: auto;
+                }
+                h1{
+                    margin: auto;
+                    margin-bottom: 1rem;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+        }
+
+
+
+
+    }
+}

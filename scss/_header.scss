@@ -3,6 +3,7 @@
 header{
     display: flex;
     flex-direction: row;
+    position: relative;
     align-items: center;
     background-color: white;
     justify-content: space-between;
@@ -15,6 +16,10 @@ header{
         object-fit: contain;
         margin-left: 10%;
         cursor: pointer;
+    }
+
+    i{
+        display: none;
     }
     
     nav{
