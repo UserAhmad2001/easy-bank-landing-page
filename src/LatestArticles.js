@@ -32,7 +32,7 @@ export default function LatestArticles(){
 
 
                 <article className="article " onClick={click}>
-                    <img src="\easy-bank-landing-page\assets\images\image-plane.jpg" alt="article " />
+                    <img src="https://userahmad2001.github.io/easy-bank-landing-page/assets/images/image-plane.jpg" alt="article " />
                     <p className="author">By Wilson Hutton</p>
                     <p  href="#">Take your Easybank card wherever you go</p>
                     <p className="summary">
