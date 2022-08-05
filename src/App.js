@@ -6,7 +6,6 @@ import WhyChooseUs from './WhyChooseUs';
 import LatestArticles from './LatestArticles';
 import Home from './Home';
 import Favicon from "react-favicon";
-import css from '../assets/style.css';
 
 export default function App(){
 
