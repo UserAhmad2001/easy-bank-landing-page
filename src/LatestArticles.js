@@ -10,7 +10,7 @@ export default function LatestArticles(){
             <div className="articles">
 
                 <article className="article " onClick={click}>
-                    <img src="..\assets\images\image-currency.jpg" alt="article " />
+                    <img src="\easy-bank-landing-page\assets\images\image-currency.jpg" alt="article " />
                     <p className="author">By Claire Robinson</p>
                     <p  href="#">Receive money in any currency with no fees</p>
                     <p className="summary">
@@ -21,7 +21,7 @@ export default function LatestArticles(){
 
 
                 <article className="article " onClick={click}>
-                    <img src="..\assets\images\image-restaurant.jpg" alt="article " />
+                    <img src="\easy-bank-landing-page\assets\images\image-restaurant.jpg" alt="article " />
                     <p className="author">By Wilson Hutton</p>
                     <p  href="#">Treat yourself without worrying about money</p>
                     <p className="summary">
@@ -32,7 +32,7 @@ export default function LatestArticles(){
 
 
                 <article className="article " onClick={click}>
-                    <img src="..\assets\images\image-plane.jpg" alt="article " />
+                    <img src="\easy-bank-landing-page\assets\images\image-plane.jpg" alt="article " />
                     <p className="author">By Wilson Hutton</p>
                     <p  href="#">Take your Easybank card wherever you go</p>
                     <p className="summary">
@@ -43,7 +43,7 @@ export default function LatestArticles(){
 
 
                 <article className="article " onClick={click}>
-                    <img src="..\assets\images\image-confetti.jpg" alt="article " />
+                    <img src="\easy-bank-landing-page\assets\images\image-confetti.jpg" alt="article " />
                     <p className="author">By Claire Robinson</p>
                     <p  href="#">Our invite-only Beta accounts are now live!</p>
                     <p className="summary">
