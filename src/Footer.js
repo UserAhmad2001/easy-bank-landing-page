@@ -8,13 +8,13 @@ export default function Footer(){
     return(
         <footer>
             <div className="logo-social">
-                <img onClick={click} src="assets\images\logo-bg-dark.svg" alt="footer logo" />
+                <img onClick={click} src="..\assets\images\logo-bg-dark.svg" alt="footer logo" />
                 <div className="social">
-                    <img onClick={click} src="assets\images\icon-facebook.svg" alt="facebook logo" />
-                    <img onClick={click} src="assets\images\icon-youtube.svg" alt="youtube logo" />
-                    <img onClick={click} src="assets\images\icon-twitter.svg" alt="twitter logo" />
-                    <img onClick={click} src="assets\images\icon-pinterest.svg" alt="pinterest logo" />
-                    <img onClick={click} src="assets\images\icon-instagram.svg" alt="instagram logo" />
+                    <img onClick={click} src="..\assets\images\icon-facebook.svg" alt="facebook logo" />
+                    <img onClick={click} src="..\assets\images\icon-youtube.svg" alt="youtube logo" />
+                    <img onClick={click} src="..\assets\images\icon-twitter.svg" alt="twitter logo" />
+                    <img onClick={click} src="..\assets\images\icon-pinterest.svg" alt="pinterest logo" />
+                    <img onClick={click} src="..\assets\images\icon-instagram.svg" alt="instagram logo" />
                 </div>
             </div>
 
