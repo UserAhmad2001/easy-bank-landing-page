@@ -1,4 +1,6 @@
 import React from "react";
+import {click} from './App';
+
 
 export default function Home(){
     return(
@@ -7,7 +9,7 @@ export default function Home(){
                 <h1>Next generation <br />digital banking</h1>
                 <p>Take your financial life online. Your Easybank account <br />will be a one-stop-shop 
                 for spending, saving, <br />budgeting, investing, and much more.</p>
-                <button>Request Invite</button>
+                <button onClick={click}>Request Invite</button>
             </div>
             
             <div className="home-img">

@@ -1,4 +1,6 @@
 import React from "react";
+import {click} from './App';
+
 
 export default function LatestArticles(){
     return(
@@ -7,7 +9,7 @@ export default function LatestArticles(){
 
             <div className="articles">
 
-                <article className="article">
+                <article className="article " onClick={click}>
                     <img src="..\assets\images\image-currency.jpg" alt="article " />
                     <p className="author">By Claire Robinson</p>
                     <p  href="#">Receive money in any currency with no fees</p>
@@ -18,7 +20,7 @@ export default function LatestArticles(){
                 </article>
 
 
-                <article className="article">
+                <article className="article " onClick={click}>
                     <img src="..\assets\images\image-restaurant.jpg" alt="article " />
                     <p className="author">By Wilson Hutton</p>
                     <p  href="#">Treat yourself without worrying about money</p>
@@ -29,7 +31,7 @@ export default function LatestArticles(){
                 </article>
 
 
-                <article className="article">
+                <article className="article " onClick={click}>
                     <img src="..\assets\images\image-plane.jpg" alt="article " />
                     <p className="author">By Wilson Hutton</p>
                     <p  href="#">Take your Easybank card wherever you go</p>
@@ -40,7 +42,7 @@ export default function LatestArticles(){
                 </article>
 
 
-                <article className="article">
+                <article className="article " onClick={click}>
                     <img src="..\assets\images\image-confetti.jpg" alt="article " />
                     <p className="author">By Claire Robinson</p>
                     <p  href="#">Our invite-only Beta accounts are now live!</p>

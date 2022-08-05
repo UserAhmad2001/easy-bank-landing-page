@@ -1,17 +1,44 @@
 @media screen and (max-width:897px) {
     header{
-
+        position: relative;
+        z-index: 100;
 
         img{
             margin: 1.5rem 10%;
         }
         
-        i{
+        .menu{
             display: initial;
             margin: 0;
             margin-left: auto;
             margin-right: 2rem;
         }
+
+        .menu:focus{
+            border-radius: 1rem;
+
+            &+nav{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 120%;
+                left: 50%;
+                background-color: white;
+                border-radius: .5rem;
+                padding: 1.5rem 0;
+                width: 90%;
+                transform: translateX(-50%);
+                max-width: 20rem;
+                box-shadow: 0 0 100rem black;
+    
+                span{
+                    font-weight: 400;
+                    color: black;
+                    padding: 1rem 0;
+                }
+            }
+        }
+        
 
         
         nav{

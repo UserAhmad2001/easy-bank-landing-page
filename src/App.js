@@ -7,6 +7,8 @@ import LatestArticles from './LatestArticles';
 import Home from './Home';
 
 export default function App(){
+
+
     return(
         <main className="app">
             <Header />
@@ -17,4 +19,8 @@ export default function App(){
         </main>
 
     );
+}
+
+export function click(){
+    alert('this is a clickable link')
 }

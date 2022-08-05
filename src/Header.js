@@ -1,18 +1,20 @@
 import React from "react";
+import {click} from './App';
 
 export default function Header(){
+
     return(
         <header>
-            <img src="../assets/images/logo.svg" alt="company logo" />
-            <i className="fa-solid"></i>
+            <img onClick={click} src="../assets/images/logo.svg" alt="company logo" />
+            <img className="menu" tabIndex={0} src="../assets/images/icons8-menu.svg" alt="menu icon" />
             <nav>
-                <span>Home</span>
-                <span>About</span>
-                <span>Contact</span>
-                <span>Blog</span>
-                <span>Careers</span>
+                <span onClick={click}>Home</span>
+                <span onClick={click}>About</span>
+                <span onClick={click}>Contact</span>
+                <span onClick={click}>Blog</span>
+                <span onClick={click}>Careers</span>
             </nav>
-            <button>Request Invite</button>
+            <button onClick={click}>Request Invite</button>
         </header>
     )
 }
