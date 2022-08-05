@@ -13,7 +13,7 @@ export default function App(){
 
     return(
         <main className="app">
-            <Favicon url="../assets/images/favicon-32x32.png" />
+            <Favicon url="assets/images/favicon-32x32.png" />
             <Header />
             <Home />
             <WhyChooseUs />

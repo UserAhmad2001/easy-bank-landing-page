@@ -5,8 +5,8 @@ export default function Header(){
 
     return(
         <header>
-            <img onClick={click} src="/assets/images/logo.svg" alt="company logo" />
-            <img className="menu" tabIndex={0} src="/assets/images/icons8-menu.svg" alt="menu icon" />
+            <img onClick={click} src="assets/images/logo.svg" alt="company logo" />
+            <img className="menu" tabIndex={0} src="assets/images/icons8-menu.svg" alt="menu icon" />
             <nav>
                 <span onClick={click}>Home</span>
                 <span onClick={click}>About</span>
