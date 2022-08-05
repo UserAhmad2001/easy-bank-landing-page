@@ -15,9 +15,9 @@ export default function Home(){
             <div className="home-img">
             <picture>
                 <source srcSet="..\assets\images\bg-intro-mobile.svg" media="(max-width:375px)"/>
-                <img src="..\assets\images\bg-intro-desktop.svg" alt="home img" />
+                <img src="\assets\images\bg-intro-desktop.svg" alt="home img" />
             </picture>
-            <img className="mockup-img" src="..\assets\images\image-mockups.png" alt="phones image" />
+            <img className="mockup-img" src="\assets\images\image-mockups.png" alt="phones image" />
             </div>
         </div>
     )
